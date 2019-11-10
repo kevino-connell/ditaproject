@@ -1,0 +1,13 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT car (name,colour,fuel)>
+
+<!ELEMENT fuel (petrol|gas)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT colour (#PCDATA)>
+
+<!ELEMENT petrol (#PCDATA)>
+
+<!ELEMENT gas (#PCDATA)>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT agency_report (name, date, city, address, body, website) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT date (year_of_report) >
+<!ATTLIST date  >

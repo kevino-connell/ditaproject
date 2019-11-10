@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agency_report SYSTEM "assignment1.dtd">
+<agency_report>
+    <name>Cork_branch</name> 
+    
+    <date type="day_month">
+        <year_of_report>2019</year_of_report>   
+    </date>    
+    <city>Cork</city>
+        
+    <address></address>
+        
+    <body>        
+        <employee staff_id="e1">
+            <name></name>
+            <age></age>
+            <salary mode="weekly"></salary>
+        </employee>
+         <employee staff_id="e2">   
+             <name></name><age></age>
+             <salary mode="weekly"></salary>
+         </employee>
+        <employee staff_id="e3">
+            <name></name>
+            <age></age>
+            <salary mode="weekly"></salary>
+        </employee>
+        <employee staff_id="e4">   
+            <name></name><age></age>
+            <salary mode="weekly"></salary>
+        </employee>
+        <employee staff_id="e5">
+            <name></name>
+            <age></age>
+            <salary mode="weekly"></salary>
+        </employee>
+        <employee staff_id="e6">   
+            <name></name>
+            <age></age>
+            <salary mode="weekly"></salary>
+        </employee>
+                             
+        <tour tour_name="tour1">
+            <destination></destination>
+            <leader leader_id="e1"> 
+                <name></name>
+            </leader>
+            <price></price>
+            <date type="day_month"> 
+                <year_of_report>2019</year_of_report>
+            </date>  
+        </tour>
+        
+        <tour tour_name="tour2">
+            <destination></destination>
+            <leader leader_id="e2"> 
+                <name></name>
+            </leader>    
+            <leader leader_id='e3'>  
+                <name></name>
+            </leader>
+            <price></price>
+            <date type="day_month">
+                <year_of_report>2019</year_of_report>
+            </date>
+        </tour>    
+                
+        <tour tour_name="tour3">
+            <destination></destination>
+            <leader leader_id="e2"> 
+                <name></name>
+            </leader>      
+            <price></price>
+            <date type="day_month">  
+                <year_of_report>2019</year_of_report>
+            </date>
+        </tour>
+            
+        <tour tour_name="tour4">
+            <destination></destination>
+            <leader leader_id="e3"> 
+                <name></name>
+            </leader> 
+            <leader leader_id="e2"> 
+                <name></name>
+            </leader>   
+            <price></price>
+            <date type="day_month">  
+                  <year_of_report>2019</year_of_report>   
+            </date>
+        </tour>
+       
+        <finance_report> 
+            <fullYear>
+                <trip trip_name="t1">     
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>  
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                </trip>
+                               
+                <trip trip_name="t2">     
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>  
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                </trip>
+                <ticket_only></ticket_only>
+                <income></income>
+            </fullYear>
+                
+            <fullSeason>
+                <trip trip_name="t1">
+                    <customer gender="Female">
+                        <name></name>
+                        <age></age>
+                    </customer> 
+                    <customer gender="Female">
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer gender="Female">
+                        <name></name>
+                        <age></age>
+                    </customer>
+                </trip>    
+                <ticket_only></ticket_only>         
+                <trip trip_name="t2">    
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>    
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                </trip>
+                <ticket_only></ticket_only>
+                     
+                <trip trip_name="t3">    
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>    
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                </trip>
+                <ticket_only></ticket_only>
+                <income></income>
+            </fullSeason>
+            <fullYear>
+                <income></income>
+            </fullYear>
+            <fullSeason seasonName="Winter">
+                <trip trip_name="t4">
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                </trip>
+                <ticket_only></ticket_only>
+                <trip trip_name="t5">
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                    <customer>
+                        <name></name>
+                        <age></age>
+                    </customer>
+                </trip>
+                <ticket_only>2</ticket_only>
+                <income></income>
+            </fullSeason>
+                   
+        </finance_report>   
+                
+    </body>
+    <website>&website_address;</website>
+</agency_report>

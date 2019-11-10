@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT agency_report (name, date, city, address, body, website) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT date (year_of_report) >
+<!ELEMENT year_of_report (#PCDATA) >
+<!ATTLIST date type (day_month) #REQUIRED >
+<!ELEMENT city (#PCDATA) >
+<!ELEMENT address (#PCDATA) >
+<!ENTITY  report_introduction SYSTEM " To whom it may concerns" >
+<!ELEMENT body ((employee, employee, employee, employee, employee?, employee?, employee?), (tour, tour, tour+), finance_report)>
+<!ELEMENT employee (name, age, salary) >
+<!ELEMENT employee_name (#PCDATA) >
+<!ATTLIST employee title (officer | manager | clerk | secretary | tour_leader) "officer" >
+<!ATTLIST employee staff_id ID #REQUIRED >
+<!ELEMENT age (#PCDATA) >
+<!ELEMENT salary (#PCDATA) >
+<!ATTLIST salary mode (weekly | monthly) #REQUIRED >
+<!ATTLIST salary currency CDATA #FIXED "Euro" >
+<!ELEMENT tour (destination, leader, leader?, price, date) >
+<!ENTITY  tours_sold SYSTEM "The total number of sold tour packages from our office has shown" >
+<!ELEMENT destination (country, city)? >
+<!ELEMENT country (#PCDATA) >
+<!ELEMENT leader (name, name?) >
+<!ATTLIST leader leader_id IDREF #REQUIRED > 
+<!ELEMENT price (#PCDATA) >
+<!ATTLIST tour type (domestic | international) #IMPLIED  >
+<!ATTLIST tour mode_transport (bus | cruise | train | air) #IMPLIED >
+<!ATTLIST tour tour_name ID #REQUIRED >
+<!ELEMENT finance_report (fullYear, fullSeason)+ >
+<!ELEMENT fullYear ((trip*, ticket_only*), income) >
+<!ELEMENT income (#PCDATA) >
+<!ELEMENT fullSeason ((trip, ticket_only)*, income) >
+<!ELEMENT ticket_only (#PCDATA) >
+<!ATTLIST fullSeason seasonName CDATA #IMPLIED>
+<!ELEMENT trip (customer, customer, customer+) >
+<!ATTLIST trip trip_name IDREF #REQUIRED >
+<!ELEMENT customer (name, age) >
+<!ATTLIST customer gender (Female | Male) #IMPLIED >
+<!ELEMENT website (#PCDATA) >
+<!ENTITY  website_address SYSTEM "www.myTravelAgency.org">
+<!ENTITY  report_conclusion SYSTEM "Your sincerely:  Cork branch." >
+
+
